@@ -28,7 +28,15 @@ div.text {
     padding-bottom: 20px;
 }
 
+.text-right {
+    text-align: right;
+}
+
 @media only screen and (min-device-width: 600px) {
+    .text-right {
+        padding-right: 40px;
+    }
+
     div.description {
         font-size: 20px;
         width: 50%;
