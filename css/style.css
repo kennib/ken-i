@@ -28,12 +28,15 @@ div.text {
     padding-bottom: 20px;
 }
 
-div.description {
-    font-size: 20px;
-    width: 50%;
-    margin: auto auto;
+@media only screen and (min-device-width: 600px) {
+    div.description {
+        font-size: 20px;
+        width: 50%;
+        margin: auto auto;
+    }
+
+    section {
+        padding: 80px;
+    }
 }
 
-section {
-    padding: 80px;
-}
