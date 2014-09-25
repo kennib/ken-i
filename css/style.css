@@ -20,7 +20,7 @@ h3 {
 }
 
 a {
-    color: rgba(200, 200, 240, 1.0);
+    color: rgba(255, 255, 255, 1.0);
 }
 
 div.text {
@@ -30,6 +30,21 @@ div.text {
 
 .text-right {
     text-align: right;
+}
+
+.bubble {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(35, 20, 20, 0.8);
+}
+
+.bubble:hover {
+    background-color: rgba(85, 60, 60, 0.8);
 }
 
 @media only screen and (min-device-width: 600px) {
