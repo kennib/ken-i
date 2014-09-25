@@ -1,0 +1,9 @@
+{
+  "name": "ken-ai",
+  "version": "1.0.0",
+  "authors": [],
+  "private": true,
+  "dependencies": {
+    "skrollr": "~0.6.26"
+  }
+}
