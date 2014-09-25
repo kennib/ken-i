@@ -48,6 +48,14 @@ div.text {
     background-color: rgba(85, 60, 60, 0.8);
 }
 
+.no-Parallaxify {
+    width: 100%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (min-device-width: 600px) {
     .text-right {
         padding-right: 40px;
